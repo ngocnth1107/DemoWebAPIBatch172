@@ -20,7 +20,7 @@ namespace WorkerRole1
 
         public override void Run()
         {
-            Trace.TraceInformation("WorkerRole1 is running");
+            Trace.TraceInformation("WorkerRole1 is running! 123");
             while(true)
             {
                 Thread.Sleep(10000);
